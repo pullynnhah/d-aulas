@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício</title>
+  </head>
+  <body>
+    <button onclick="calculator()">Calculator</button>
+    <script>
+      function calculator() {
+        const num1 = Number(prompt("Number 1:"));
+        const operation = prompt("Operation (+, -, *):");
+        const num2 = Number(prompt("Number 2:"));
+
+        let result = "invalid";
+        if (operation === "+") result = num1 + num2;
+        else if (operation === "-") result = num1 - num2;
+        else if (operation === "*") result = num1 * num2;
+        alert(`Result is: ${result}`);
+      }
+    </script>
+  </body>
+</html>
