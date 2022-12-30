@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom";
 
 function Topo() {
-  return <div class="topo">Minha página linda</div>;
+  return <div className="topo">Minha página linda</div>;
 }
 
 function SobreMim() {
@@ -36,7 +36,7 @@ function SaibaMais() {
 
 function Corpo() {
   return (
-    <div class="corpo">
+    <div className="corpo">
       <SobreMim />
       <SaibaMais />
     </div>
@@ -45,7 +45,7 @@ function Corpo() {
 
 function Rodape() {
   return (
-    <div class="rodape">Copyright 2021. Todos os direitos reservados.</div>
+    <div className="rodape">Copyright 2021. Todos os direitos reservados.</div>
   );
 }
 
