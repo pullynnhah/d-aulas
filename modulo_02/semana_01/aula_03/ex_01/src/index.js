@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 import Navbar from "./components/Navbar";
 import Conteudo from "./components/Conteudo";
@@ -14,4 +14,5 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.querySelector(".root"));
+const root = ReactDOM.createRoot(document.querySelector(".root"));
+root.render(<App />);

@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 function Topo() {
   return <div className="topo">Minha página linda</div>;
@@ -59,4 +59,5 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.querySelector(".root"));
+const root = ReactDOM.createRoot(document.querySelector(".root"));
+root.render(<App />);
