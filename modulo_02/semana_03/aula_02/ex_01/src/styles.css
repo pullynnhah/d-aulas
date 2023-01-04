@@ -1,0 +1,75 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  margin: 10px 0;
+  color: #21c0a8;
+}
+
+.lista-usuarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-usuario {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px 1px gray;
+}
+
+.card-usuario img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.card-usuario button {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: 0 solid black;
+  background-color: #ff4d4d;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cadastrar-usuario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastrar-usuario input {
+  margin-top: 10px;
+  border: 2px solid #21c0a8;
+  width: 350px;
+  padding: 10px;
+  background-color: #f3f3f3;
+  color: #555;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.cadastrar-usuario button {
+  margin-top: 15px;
+  width: 375px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #21c0a8;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
