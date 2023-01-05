@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export default function App() {
   const [inputValue, setInputValue] = useState("#000000");
@@ -9,11 +9,7 @@ export default function App() {
     <div>
       <Title color={inputValue}>Color Picker!</Title>
       Escolha a cor do topo da página:
-      <Input
-        type="color"
-        onChange={e => setInputValue(e.target.value)}
-        value={inputValue}
-      />
+      <Input type="color" onChange={e => setInputValue(e.target.value)} value={inputValue} />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import CardUsuario from './CardUsuario';
+import CardUsuario from "./CardUsuario";
 
 export default function ListaUsuarios({ usuarios, setUsuarios }) {
   function deleteUser(idx) {

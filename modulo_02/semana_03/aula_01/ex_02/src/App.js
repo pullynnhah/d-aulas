@@ -1,6 +1,6 @@
-import './style.css';
+import "./style.css";
 
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function App() {
   const [nome, setNome] = useState("");
