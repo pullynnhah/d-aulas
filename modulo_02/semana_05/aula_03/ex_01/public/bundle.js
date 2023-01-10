@@ -1,0 +1,1 @@
+(()=>{i;const t=axios.get("https://api.quotable.io/random"),o=document.querySelector(".root");t.then((t=>{o.innerHTML=`\n    <p><strong>Autor:</strong> ${t.data.author}</p>\n    <p><strong>Frase:</strong> <i>${t.data.content}</i></p>\n  `}))})();
